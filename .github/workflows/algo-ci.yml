@@ -2,7 +2,7 @@ name: Algorithms CI
 
 on:
   push:
-    branches: [ '**' ]
+    branches: master
 
 jobs:
   check-compilation:
