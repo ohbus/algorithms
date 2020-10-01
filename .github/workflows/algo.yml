@@ -1,4 +1,4 @@
-name: Algorithms CI
+name: Algo CI
 
 on:
   push:
