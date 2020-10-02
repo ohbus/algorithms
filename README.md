@@ -19,13 +19,13 @@ If you're an algorithms enthusiast and want to add or improve an algorithm your 
 #### The procedure to add a new algorithm or snippet of code is:
 
 1. If there doesn't already exist an issue, then file a new issue explaining the algorithm/change you want to do.
-2. Make sure the algorithm doesn't already exist! We don't want duplicate algorithms.
+2. Make sure the algorithm doesn't already exist! We don't want duplicate algorithms
 3. Identify the category folder your algorithm belongs to. For example, a sorting snippet would belong to the `src/main/java/xyz/subho/algorithms/sort` folder. You may also create a new **category** folder if appropriate.
 4. Add the algorithm implementation to: `src/main/java/xyz/subho/algorithms/category/FooAlgorithm.java`
 5. Add tests for FooAlgorithm in: `src/test/java/xyz/subho/algorithms/category/FooAlgorithmTest.java`
-6. Test your algorithm thoroughly.
+6. Test your algorithm thoroughly
 7. Run **`./mvnw spotless:apply`** to format all Java code according to Google Style Guide.
-8. Send pull request for review.
+8. Send pull request for review
 
 ## Running an algorithm implementation
 
