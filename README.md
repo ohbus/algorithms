@@ -40,26 +40,13 @@ If you are on Windows, use `mvnw` instead of `./mvnw` below.
 Run a single algorithm like this:
 
 ```
-./mvnw run -Palgorithm=<algorithm-subpackage>.<algorithm-class>
-```
-
-Alternatively, you can run a single algorithm specifying the full class name
-
-```
-./mvnw run -Pmain=<algorithm-fully-qualified-class-name>
-
+./mvnw compile exec:java -Dexec.mainClass="<algorithm-subpackage>.<algorithm-class>"
 ```
 
 For instance:
 
 ```
-./mvnw run -Palgorithm=sort.QuickSort
-```
-
-or
-
-```
-./mvnw run -Pmain=xyz.subho.algorithms.sort.QuickSort
+./mvnw compile exec:java -Dexec.mainClass="xyz.subho.algorithms.sort.QuickSort"
 ```
 
 ## Compiling and running with only a JDK
