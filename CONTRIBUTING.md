@@ -13,7 +13,7 @@ We love your input! We want to make contributing to this project as easy and tra
 
 * Comment on the issue you want to work on. Make sure it's not assigned to someone else.
 
-### Making a PR
+### Making a Pull Request
 
 > - Make sure you have been assigned the issue to which you are making a PR.
 > - If you make PR before being assigned, It will be labeled `invalid` and closed without merging.
@@ -43,7 +43,7 @@ We love your input! We want to make contributing to this project as easy and tra
     ```
     git push origin <branch-name>
     ```
-* Create a PR from our repo on Github.
+* Create a Pull Request from our repo on GitHub.
 
 ### Additional Notes
 
