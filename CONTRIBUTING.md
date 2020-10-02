@@ -1,4 +1,4 @@
-# Contributing to Algorithms and Data Structures
+# Contributing to Algorithms
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
@@ -20,12 +20,12 @@ We love your input! We want to make contributing to this project as easy and tra
 
 * Fork the repo and clone it on your machine.
     ```
-    git clone https://github.com/ohbus/algorithms.git
+    git clone https://github.com/<your-github-id>/algorithms.git
     cd algorithms
     ```
 * Add a upstream link to main branch in your cloned repo
     ```
-    git remote add upstream https://github.com/Py-Contributors/awesomescripts.git
+    git remote add upstream https://github.com/ohbus/algorithms.git
     ```
 * Keep your cloned repo upto date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
     ```
