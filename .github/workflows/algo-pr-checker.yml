@@ -7,7 +7,7 @@ on:
 
 jobs:
   
-  check-compilation:
+  check-pr-compilation:
 
     runs-on: ubuntu-latest
     
@@ -42,7 +42,7 @@ jobs:
         run: mvn -B clean verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
   
   
-  code-formatting-checker:
+  check-pr-code-formatting:
 
     runs-on: ubuntu-latest
 
