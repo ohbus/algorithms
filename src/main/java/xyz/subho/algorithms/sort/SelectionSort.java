@@ -1,3 +1,5 @@
+package xyz.subho.algorithms.sort;
+
 class SelectionSort {
   static void selectionSort(int arr[], int n) {
     int i, j, minimum;
