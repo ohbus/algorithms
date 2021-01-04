@@ -15,6 +15,15 @@
       ]
     },
     {
+      "login": "deepsubha",
+      "name": "SUBHADEEP MAITI",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35770307?v=4",
+      "profile": "https://github.com/deepsubha",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "Souph",
       "name": "Souptik Hari",
       "avatar_url": "https://avatars3.githubusercontent.com/u/51859712?v=4",
@@ -22,7 +31,7 @@
       "contributions": [
         "code"
       ]
-    }
+    },
   ],
   "contributorsPerLine": 7,
   "projectName": "algorithms",
