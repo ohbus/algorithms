@@ -1,9 +1,11 @@
 # Algorithms
+
+![Algorithms CI](https://github.com/ohbus/Algorithms/workflows/Algorithms%20CI/badge.svg)
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-![Algorithms CI](https://github.com/ohbus/Algorithms/workflows/Algorithms%20CI/badge.svg)
 
 **Algorithms using Java built with :heart: using Maven**
 
