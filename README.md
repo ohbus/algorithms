@@ -8,7 +8,7 @@
 
 This repository is contribution friendly. If you'd like to add or improve an algorithm, your contribution is welcome!
 
-Please go through this comprehensive guide to setup the repository in your local enviornment using [this guide CONTRIBUTING.md](https://github.com/ohbus/algorithms/blob/master/CONTRIBUTING.md).
+Please go through this comprehensive guide to setup the repository in your local enviornment using [this guide CONTRIBUTING.md](https://github.com/ohbus/algorithms/blob/master/CONTRIBUTING.md#contributing-to-algorithms).
 
 If you're an algorithms enthusiast and want to add or improve an algorithm your contribution is welcome! Please be sure to include tests
 

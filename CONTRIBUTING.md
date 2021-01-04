@@ -1,4 +1,4 @@
-# Contributing to Algorithms and Data Structures
+# Contributing to Algorithms
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
@@ -13,19 +13,19 @@ We love your input! We want to make contributing to this project as easy and tra
 
 * Comment on the issue you want to work on. Make sure it's not assigned to someone else.
 
-### Making a PR
+### Making a Pull Request
 
 > - Make sure you have been assigned the issue to which you are making a PR.
 > - If you make PR before being assigned, It will be labeled `invalid` and closed without merging.
 
 * Fork the repo and clone it on your machine.
     ```
-    git clone https://github.com/ohbus/algorithms.git
+    git clone https://github.com/<your-github-id>/algorithms.git
     cd algorithms
     ```
 * Add a upstream link to main branch in your cloned repo
     ```
-    git remote add upstream https://github.com/Py-Contributors/awesomescripts.git
+    git remote add upstream https://github.com/ohbus/algorithms.git
     ```
 * Keep your cloned repo upto date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
     ```
@@ -43,7 +43,7 @@ We love your input! We want to make contributing to this project as easy and tra
     ```
     git push origin <branch-name>
     ```
-* Create a PR from our repo on Github.
+* Create a Pull Request from our repo on GitHub.
 
 ### Additional Notes
 
