@@ -84,7 +84,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://subho.xyz"><img src="https://avatars0.githubusercontent.com/u/13291222?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Subhrodip Mohanta</b></sub></a><br /><a href="#projectManagement-ohbus" title="Project Management">📆</a></td>
+    <td align="center"><a href="http://subho.xyz"><img src="https://avatars0.githubusercontent.com/u/13291222?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Subhrodip Mohanta</b></sub></a><br /><a href="#projectManagement-ohbus" title="Project Management">📆</a> <a href="#maintenance-ohbus" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
