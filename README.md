@@ -2,17 +2,22 @@
 
 ![Algorithms CI](https://github.com/ohbus/Algorithms/workflows/Algorithms%20CI/badge.svg)
 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+
 **Algorithms using Java built with :heart: using Maven**
 
 ## [Contributing](https://github.com/ohbus/algorithms/blob/master/CONTRIBUTING.md)
 
 This repository is contribution friendly. If you'd like to add or improve an algorithm, your contribution is welcome!
 
-Please go through this comprehensive guide to setup the repository in your local enviornment using [this guide CONTRIBUTING.md](https://github.com/ohbus/algorithms/blob/master/CONTRIBUTING.md).
+Please go through this comprehensive guide to setup the repository in your local enviornment using [this guide CONTRIBUTING.md](https://github.com/ohbus/algorithms/blob/master/CONTRIBUTING.md#contributing-to-algorithms).
 
 If you're an algorithms enthusiast and want to add or improve an algorithm your contribution is welcome! Please be sure to include tests
 
-```
+```zsh
 ➜  algorithms git:(master) ./mvnw verify
 ```
 ### Adding a new algorithm
@@ -39,13 +44,13 @@ If you are on Windows, use `mvnw` instead of `./mvnw` below.
 
 Run a single algorithm like this:
 
-```
+```zsh
 ./mvnw compile exec:java -Dexec.mainClass="<algorithm-subpackage>.<algorithm-class>"
 ```
 
 For instance:
 
-```
+```zsh
 ./mvnw compile exec:java -Dexec.mainClass="xyz.subho.algorithms.sort.QuickSort"
 ```
 
@@ -53,19 +58,41 @@ For instance:
 
 ### Create a classes folder
 
-```
+```zsh
 cd algorithms
 mkdir classes
 ```
 
 ### Compile the algorithm
 
-```
+```zsh
 javac -sourcepath src/main/java -d classes src/main/java/ <relative-path-to-java-source-file>
 ```
 
 ### Run the algorithm
 
-```
+```zsh
 java -cp classes <class-fully-qualified-name>
 ```
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://subho.xyz"><img src="https://avatars0.githubusercontent.com/u/13291222?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Subhrodip Mohanta</b></sub></a><br /><a href="#projectManagement-ohbus" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://github.com/Souph"><img src="https://avatars3.githubusercontent.com/u/51859712?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Souptik Hari</b></sub></a><br /><a href="https://github.com/ohbus/algorithms/commits?author=Souph" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/deepsubha"><img src="https://avatars3.githubusercontent.com/u/35770307?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SUBHADEEP MAITI</b></sub></a><br /><a href="https://github.com/ohbus/algorithms/commits?author=deepsubha" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
