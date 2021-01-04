@@ -1,4 +1,7 @@
 # Algorithms
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Algorithms CI](https://github.com/ohbus/Algorithms/workflows/Algorithms%20CI/badge.svg)
 
@@ -69,3 +72,23 @@ javac -sourcepath src/main/java -d classes src/main/java/ <relative-path-to-java
 ```zsh
 java -cp classes <class-fully-qualified-name>
 ```
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://subho.xyz"><img src="https://avatars0.githubusercontent.com/u/13291222?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Subhrodip Mohanta</b></sub></a><br /><a href="#projectManagement-ohbus" title="Project Management">📆</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
