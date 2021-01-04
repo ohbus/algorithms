@@ -12,7 +12,7 @@ Please go through this comprehensive guide to setup the repository in your local
 
 If you're an algorithms enthusiast and want to add or improve an algorithm your contribution is welcome! Please be sure to include tests
 
-```
+```zsh
 ➜  algorithms git:(master) ./mvnw verify
 ```
 ### Adding a new algorithm
@@ -39,13 +39,13 @@ If you are on Windows, use `mvnw` instead of `./mvnw` below.
 
 Run a single algorithm like this:
 
-```
+```zsh
 ./mvnw compile exec:java -Dexec.mainClass="<algorithm-subpackage>.<algorithm-class>"
 ```
 
 For instance:
 
-```
+```zsh
 ./mvnw compile exec:java -Dexec.mainClass="xyz.subho.algorithms.sort.QuickSort"
 ```
 
@@ -53,19 +53,19 @@ For instance:
 
 ### Create a classes folder
 
-```
+```zsh
 cd algorithms
 mkdir classes
 ```
 
 ### Compile the algorithm
 
-```
+```zsh
 javac -sourcepath src/main/java -d classes src/main/java/ <relative-path-to-java-source-file>
 ```
 
 ### Run the algorithm
 
-```
+```zsh
 java -cp classes <class-fully-qualified-name>
 ```
