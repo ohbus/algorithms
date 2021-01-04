@@ -22,7 +22,16 @@
       "contributions": [
         "code"
       ]
-    }
+    },
+    {
+      "login": "Souph",
+      "name": "Souptik Hari",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/51859712?v=4",
+      "profile": "https://github.com/Souph",
+      "contributions": [
+        "code"
+      ]
+    },
   ],
   "contributorsPerLine": 7,
   "projectName": "algorithms",

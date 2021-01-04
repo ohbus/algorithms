@@ -85,6 +85,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://subho.xyz"><img src="https://avatars0.githubusercontent.com/u/13291222?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Subhrodip Mohanta</b></sub></a><br /><a href="#projectManagement-ohbus" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://github.com/Souph"><img src="https://avatars3.githubusercontent.com/u/51859712?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Souptik Hari</b></sub></a><br /><a href="https://github.com/ohbus/algorithms/commits?author=Souph" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/deepsubha"><img src="https://avatars3.githubusercontent.com/u/35770307?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SUBHADEEP MAITI</b></sub></a><br /><a href="https://github.com/ohbus/algorithms/commits?author=deepsubha" title="Code">💻</a></td>
   </tr>
 </table>
