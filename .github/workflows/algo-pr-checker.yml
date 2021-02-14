@@ -9,6 +9,8 @@ jobs:
   
   check-pr-compilation:
 
+    needs: check-pr-code-formatting
+
     strategy:
       matrix:
         platform: [ ubuntu-latest , macos-latest , windows-latest ]
@@ -62,5 +64,5 @@ jobs:
     
     - name: Verify all Java files are formatted correctly according to the Google Java Style Guide
       run: |
-        mvn spotless:check
+        mvn -e spotless:check
         echo "Run the command './mvnw spotless:apply' to fix Java formatting if this job fails"
