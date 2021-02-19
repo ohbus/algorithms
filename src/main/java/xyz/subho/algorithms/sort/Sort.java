@@ -16,14 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package xyz.subho.algorithms;
+package xyz.subho.algorithms.sort;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-class AlgorithmsApplicationTests {
-
-  @Test
-  void contextLoads() {}
+public interface Sort {
+  public void sort(int[] values);
 }
