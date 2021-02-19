@@ -59,6 +59,6 @@ public final class SortTestUtils {
   }
 
   public static long randValue(long min, long max) {
-    return min + (long) new SecureRandom().nextLong() * max - min;
+    return min + new SecureRandom().nextLong() * max - min;
   }
 }
