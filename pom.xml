@@ -29,7 +29,7 @@
 	</parent>
 	<groupId>xyz.subho</groupId>
 	<artifactId>algorithms</artifactId>
-	<version>0.0.1</version>
+	<version>0.1</version>
 	<name>algorithms</name>
 	<description>Algorithms for Practice</description>
 	<url>https://github.com/ohbus/algorithms.git</url>
@@ -41,11 +41,23 @@
 		<tag>HEAD</tag>
 		<url>git://github.com/ohbus/algorithms.git</url>
 	</scm>
+	
+	<developers>
+		<developer>
+			<id>ohbus</id>
+			<name>Subhrodip Mohanta</name>
+			<email>hello@subho.xyz</email>
+			<timezone>Asia/Kolkata</timezone>
+			<url>https://subho.xyz</url>
+		</developer>
+	</developers>
 
 	<properties>
 		<java.version>11</java.version>
 		<spotless.plugin.version>2.8.1</spotless.plugin.version>
 		<google-java-format.version>1.9</google-java-format.version>
+		
+		<!-- SonarCloud Analysis -->
 		<sonar.projectKey>ohbus_algorithms</sonar.projectKey>
 		<sonar.organization>ohbus</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
@@ -86,7 +98,6 @@
 						<googleJavaFormat>
 							<version>${google-java-format.version}</version>
 						</googleJavaFormat>
-						<!-- TODO: Add a <licenseHeader> configuration to make all license headers in source files consistent -->
 					</java>
 				</configuration>
 				<executions>
