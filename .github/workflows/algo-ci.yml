@@ -49,7 +49,7 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       
       - name: Build and analyze
-        run: mvn -B clean verify
+        run: ./mvnw -B clean verify
 
   
   sonar-analysis:
@@ -86,7 +86,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B clean verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
+        run: ./mvnw -B clean verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
   
   
   check-code-formatting:
@@ -114,5 +114,5 @@ jobs:
     
     - name: Verify all Java files are formatted correctly according to the Google Java Style Guide
       run: |
-        mvn -e spotless:check
+        ./mvnw -e spotless:check
         echo "Run the command './mvnw spotless:apply' to fix Java formatting if this job fails"
