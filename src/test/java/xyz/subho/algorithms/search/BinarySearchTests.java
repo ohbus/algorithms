@@ -21,8 +21,7 @@ class BinarySearchTests {
 
     double sqrtVal = BinarySearch.binarySearch(lo, hi, target, function);
 
-    String out =
-        String.format("sqrt(%.2f) = %.5f, x^2 = %.5f", target, sqrtVal, sqrtVal * sqrtVal);
+    String out = String.format("sqrt(%.2f) = %.5f, x^2 = %.5f", target, sqrtVal, sqrtVal * sqrtVal);
     log.info(out);
 
     assertNotEquals(target, sqrtVal);
