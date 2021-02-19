@@ -18,7 +18,12 @@
 
 package xyz.subho.algorithms.sort;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class SelectionSort implements Sort {
+
+  private static Logger log = LoggerFactory.getLogger(SelectionSort.class);
 
   @Override
   public void sort(int[] values) {
@@ -50,6 +55,6 @@ public class SelectionSort implements Sort {
     Sort sorter = new SelectionSort();
     int[] array = {10, 4, 6, 8, 13, 2, 3};
     sorter.sort(array);
-    System.out.println(java.util.Arrays.toString(array));
+    log.info(java.util.Arrays.toString(array));
   }
 }

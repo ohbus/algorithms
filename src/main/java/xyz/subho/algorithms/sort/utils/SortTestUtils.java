@@ -18,11 +18,16 @@
 
 package xyz.subho.algorithms.sort.utils;
 
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public final class SortTestUtils {
+
+  private SortTestUtils() {
+    throw new IllegalStateException("Utility class");
+  }
 
   public static int[] randomIntegerArray(int sz, int min, int max) {
     int[] ar = new int[sz];
@@ -50,10 +55,10 @@ public final class SortTestUtils {
   }
 
   public static int randValue(int min, int max) {
-    return min + (int) (Math.random() * ((max - min)));
+    return min + new SecureRandom().nextInt(max - min);
   }
 
   public static long randValue(long min, long max) {
-    return min + (long) (Math.random() * ((max - min)));
+    return min + (long) new SecureRandom().nextLong() * max - min;
   }
 }

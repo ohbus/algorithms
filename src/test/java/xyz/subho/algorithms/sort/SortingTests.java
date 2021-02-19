@@ -25,7 +25,7 @@ import java.util.EnumSet;
 import org.junit.jupiter.api.Test;
 import xyz.subho.algorithms.sort.utils.SortTestUtils;
 
-public class SortingTests {
+class SortingTests {
 
   enum SortingAlgorithm {
     SELECTION_SORT(new SelectionSort());
@@ -45,8 +45,8 @@ public class SortingTests {
       EnumSet.of(SortingAlgorithm.SELECTION_SORT);
 
   @Test
-  public void verifySortingAlgorithms_smallPositiveIntegersOnly() {
-    for (int size = 0; size < 1000; size++) {
+  void verifySortingAlgorithms_smallPositiveIntegersOnly() {
+    for (int size = 0; size < 2323; size++) {
       for (SortingAlgorithm algorithm : sortingAlgorithms) {
         Sort sorter = algorithm.getSortingAlgorithm();
         int[] values = SortTestUtils.randomIntegerArray(size, 0, 51);
@@ -61,8 +61,8 @@ public class SortingTests {
   }
 
   @Test
-  public void verifySortingAlgorithms_smallNegativeIntegersOnly() {
-    for (int size = 0; size < 1000; size++) {
+  void verifySortingAlgorithms_smallNegativeIntegersOnly() {
+    for (int size = 0; size < 2323; size++) {
       for (SortingAlgorithm algorithm : sortingAlgorithms) {
         Sort sorter = algorithm.getSortingAlgorithm();
         int[] values = SortTestUtils.randomIntegerArray(size, -50, 51);
