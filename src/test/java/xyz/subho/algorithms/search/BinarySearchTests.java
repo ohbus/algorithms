@@ -20,7 +20,10 @@ class BinarySearchTests {
     DoubleFunction<Double> function = (x) -> (x * x);
 
     double sqrtVal = BinarySearch.binarySearch(lo, hi, target, function);
-    log.info("sqrt(", target, ") = ", sqrtVal, ", x^2 = ", sqrtVal * sqrtVal);
+
+    String out =
+        String.format("sqrt(%.2f) = %.5f, x^2 = %.5f\n", target, sqrtVal, sqrtVal * sqrtVal);
+    log.info(out);
 
     assertNotEquals(target, sqrtVal);
   }
@@ -35,7 +38,8 @@ class BinarySearchTests {
     double sphereRadius =
         BinarySearch.binarySearch(radiusLowerBound, radiusUpperBound, volume, sphereVolumeFunction);
 
-    log.info("Sphere radius = ", sphereRadius);
+    String out = String.format("Sphere radius = %.5fm\n", sphereRadius);
+    log.info(out);
 
     assertNotEquals(volume, sphereRadius);
   }
