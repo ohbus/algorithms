@@ -55,6 +55,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<spotless.plugin.version>2.8.1</spotless.plugin.version>
+		<jacoco.version>0.8.6</jacoco.version>
 		<google-java-format.version>1.9</google-java-format.version>
 		
 		<!-- SonarCloud Analysis -->
@@ -109,6 +110,7 @@
 					</execution>
 				</executions>
 			</plugin>
+			
             <plugin>
                 <groupId>com.mycila</groupId>
                 <artifactId>license-maven-plugin</artifactId>
@@ -133,6 +135,26 @@
                         <phase>install</phase>
                         <goals>
                             <goal>format</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${jacoco.version}</version>
+                <executions>
+                    <execution>
+                        <id>prepare-agent</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <goals>
+                            <goal>report</goal>
                         </goals>
                     </execution>
                 </executions>
