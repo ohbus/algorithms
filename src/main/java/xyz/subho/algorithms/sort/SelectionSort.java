@@ -56,6 +56,8 @@ public class SelectionSort implements Sort {
     Sort sorter = new SelectionSort();
     int[] array = {10, 4, 6, 8, 13, 2, 3};
     sorter.sort(array);
-    log.info(Arrays.toString(array));
+
+    String output = Arrays.toString(array);
+    log.info(output);
   }
 }

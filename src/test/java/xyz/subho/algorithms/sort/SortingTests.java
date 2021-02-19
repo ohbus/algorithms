@@ -23,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import java.util.Arrays;
 import java.util.EnumSet;
 import org.junit.jupiter.api.Test;
-import xyz.subho.algorithms.sort.utils.SortTestUtils;
+import xyz.subho.algorithms.utils.TestUtils;
 
 class SortingTests {
 
@@ -49,7 +49,7 @@ class SortingTests {
     for (int size = 0; size < 2323; size++) {
       for (SortingAlgorithm algorithm : sortingAlgorithms) {
         Sort sorter = algorithm.getSortingAlgorithm();
-        int[] values = SortTestUtils.randomIntegerArray(size, 0, 51);
+        int[] values = TestUtils.randomIntegerArray(size, 0, 51);
         int[] copy = values.clone();
 
         Arrays.sort(values);
@@ -65,7 +65,7 @@ class SortingTests {
     for (int size = 0; size < 2323; size++) {
       for (SortingAlgorithm algorithm : sortingAlgorithms) {
         Sort sorter = algorithm.getSortingAlgorithm();
-        int[] values = SortTestUtils.randomIntegerArray(size, -50, 51);
+        int[] values = TestUtils.randomIntegerArray(size, -50, 51);
         int[] copy = values.clone();
 
         Arrays.sort(values);
