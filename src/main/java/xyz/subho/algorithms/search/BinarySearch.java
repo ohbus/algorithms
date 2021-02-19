@@ -79,7 +79,7 @@ public class BinarySearch {
 
     double sqrtVal = binarySearch(lo, hi, target, function);
 
-    out = String.format("sqrt(%.2f) = %.5f, x^2 = %.5f\n", target, sqrtVal, sqrtVal * sqrtVal);
+    out = String.format("sqrt(%.2f) = %.5f, x^2 = %.5f", target, sqrtVal, sqrtVal * sqrtVal);
     log.info(out);
 
     // EXAMPLE #2
@@ -98,7 +98,7 @@ public class BinarySearch {
     double sphereRadius =
         binarySearch(radiusLowerBound, radiusUpperBound, volume, sphereVolumeFunction);
 
-    out = String.format("Sphere radius = %.5fm\n", sphereRadius);
+    out = String.format("Sphere radius = %.5fm", sphereRadius);
     log.info(out);
   }
 }
