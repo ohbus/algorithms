@@ -13,6 +13,7 @@ We love your input! We want to make contributing to this project as easy and tra
 
 * Comment on the issue you want to work on. Make sure it's not assigned to someone else.
 
+
 ### Making a Pull Request
 
 > - Make sure you have been assigned the issue to which you are making a PR.
