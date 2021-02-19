@@ -1,6 +1,6 @@
 package xyz.subho.algorithms.search;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import java.util.function.DoubleFunction;
 import org.junit.jupiter.api.Test;
@@ -21,7 +21,8 @@ class BinarySearchTests {
 
     double sqrtVal = BinarySearch.binarySearch(lo, hi, target, function);
     log.info("sqrt(", target, ") = ", sqrtVal, ", x^2 = ", sqrtVal * sqrtVal);
-    assertNotNull(sqrtVal);
+
+    assertNotEquals(target, sqrtVal);
   }
 
   @Test
@@ -36,6 +37,6 @@ class BinarySearchTests {
 
     log.info("Sphere radius = ", sphereRadius);
 
-    assertNotNull(sphereRadius);
+    assertNotEquals(volume, sphereRadius);
   }
 }

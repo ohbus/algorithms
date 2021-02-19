@@ -73,10 +73,11 @@ public class BinarySearch {
     double hi = 875.0;
     double target = 875.0;
 
-    DoubleFunction<Double> function = (x) -> (x * x);
+    DoubleFunction<Double> function = x -> (x * x);
 
     double sqrtVal = binarySearch(lo, hi, target, function);
-    log.info("sqrt(%.2f) = %.5f, x^2 = %.5f\n", target, sqrtVal, sqrtVal * sqrtVal);
+    log.info("sqrt(", target, ") = ", sqrtVal, ", x^2 = ", sqrtVal * sqrtVal);
+    // log.info("sqrt(%.2f) = %.5f, x^2 = %.5f\n", target, sqrtVal, sqrtVal * sqrtVal);
 
     // EXAMPLE #2
     // Suppose we want to find the radius of a sphere with volume 100m^3 using
@@ -89,11 +90,12 @@ public class BinarySearch {
     double radiusLowerBound = 0;
     double radiusUpperBound = 1000;
     double volume = 100.0;
-    DoubleFunction<Double> sphereVolumeFunction = (r) -> ((4.0 / 3.0) * Math.PI * r * r * r);
+    DoubleFunction<Double> sphereVolumeFunction = r -> ((4.0 / 3.0) * Math.PI * r * r * r);
 
     double sphereRadius =
         binarySearch(radiusLowerBound, radiusUpperBound, volume, sphereVolumeFunction);
 
-    log.info("Sphere radius = %.5fm\n", sphereRadius);
+    log.info("Sphere radius = ", sphereRadius);
+    // log.info("Sphere radius = %.5fm\n", sphereRadius);
   }
 }
