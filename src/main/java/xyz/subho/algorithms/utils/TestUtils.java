@@ -16,16 +16,16 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package xyz.subho.algorithms.sort.utils;
+package xyz.subho.algorithms.utils;
 
 import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public final class SortTestUtils {
+public final class TestUtils {
 
-  private SortTestUtils() {
+  private TestUtils() {
     throw new IllegalStateException("Utility class");
   }
 

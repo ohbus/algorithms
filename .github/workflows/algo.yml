@@ -49,7 +49,7 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       
       - name: Build
-        run: mvn -B clean verify
+        run: ./mvnw -B clean verify
   
   
   check-code-formatting:
@@ -77,5 +77,5 @@ jobs:
     
     - name: Verify all Java files are formatted correctly according to the Google Java Style Guide
       run: |
-        mvn -e spotless:check
+        ./mvnw -e spotless:check
         echo "Run the command './mvnw spotless:apply' to fix Java formatting if this job fails"
