@@ -1,6 +1,12 @@
 # Algorithms
 
 ![Algorithms CI](https://github.com/ohbus/Algorithms/workflows/Algorithms%20CI/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ohbus_algorithms&metric=alert_status)](https://sonarcloud.io/dashboard?id=ohbus_algorithms)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=ohbus_algorithms&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=ohbus_algorithms)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=ohbus_algorithms&metric=ncloc)](https://sonarcloud.io/dashboard?id=ohbus_algorithms)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=ohbus_algorithms&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=ohbus_algorithms)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ohbus_algorithms&metric=coverage)](https://sonarcloud.io/dashboard?id=ohbus_algorithms)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=ohbus_algorithms&metric=sqale_index)](https://sonarcloud.io/dashboard?id=ohbus_algorithms)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
